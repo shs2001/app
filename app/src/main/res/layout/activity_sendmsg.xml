@@ -43,7 +43,7 @@
             android:inputType="number"
             android:layout_weight="1"
             android:maxLength="11"
-            android:text="01646362559"
+            android:text=""
             >
 
         </EditText>
@@ -56,10 +56,11 @@
             android:hint="Messege"
             android:textColor="@color/black"
             android:textColorHint="#595757"
-            android:inputType="text"
-            android:layout_weight="1"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:layout_weight="3"
             android:maxLength="160"
-            android:text="demo"
+            android:text=""
             >
 
         </EditText>
@@ -69,31 +70,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Send Messege"
-            android:backgroundTint="#8FD865"
+            android:backgroundTint="#00ABE9"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:layout_weight="1"
             ></Button>
 
 
-            <TextView
-                android:id="@+id/balance"
-                android:layout_width="85dp"
-                android:layout_height="20dp"
-                android:drawableLeft="@drawable/money"
-                android:text="00.00 TK"
-                android:textStyle="bold"
-                android:layout_gravity="right"
-                android:gravity="center"
-                android:textColor="@color/black"
-                android:layout_weight="1"
-                ></TextView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/result"></TextView>
-
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="122dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Balance: 0.2536 TK"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold"></TextView>
 
 
 </LinearLayout>

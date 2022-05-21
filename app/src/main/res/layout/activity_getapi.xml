@@ -30,7 +30,7 @@
         android:textColor="@color/black"
         android:textColorHint="#595757"
         android:inputType="text"
-        android:text="00V2A7BaR0t5zqh9dGJIKZEKOV8O1zHQRDyJT7kz"
+        android:text=""
         >
 
     </EditText>
@@ -39,9 +39,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
-        android:backgroundTint="#8FD865"
+        android:backgroundTint="#00ABE9"
         android:textAllCaps="false"
         android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
         ></Button>
+    <TextView
+        android:id="@+id/needapikey"
+        android:textColor="#9C9A9A"
+        android:textStyle="italic"
+        android:text="@string/need_api"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
 
 </LinearLayout>

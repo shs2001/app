@@ -19,6 +19,7 @@
         ></ImageView>
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wellcome to free SMS Service"
@@ -33,9 +34,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Get Start"
-        android:backgroundTint="#8FD865"
+        android:backgroundTint="#00ABE9"
         android:textAllCaps="false"
         android:textColor="@color/white"
         ></Button>
+
 
 </LinearLayout>
